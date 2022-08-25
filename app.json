@@ -1,0 +1,17 @@
+{
+    "Name": "drawio",
+    "Version": "20.2.6",
+    "Home": "https://www.diagrams.net/",
+    "Maintainer": "zhouyueqiu zhouyueqiu@easycorp.ltd",
+    "GitUrl": "https://github.com/jgraph/drawio",
+    "DockerfileUrl": "https://github.com/quicklyon/drawio-docker",
+    "DockerfileRepoBranch":"",
+    "InstallDocUrl": "https://www.qucheng.com/app-install/install-drawio-<number>.html",
+    "Docker": {
+        "Name": "drawio",
+        "OS": "debian-11",
+        "ImageOS": "easysoft/debian:11",
+        "Repo": "https://hub.docker.com/r/easysoft/drawio",
+        "TagUrl": "https://hub.docker.com/r/easysoft/drawio/tags/"
+    }
+}
