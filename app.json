@@ -5,7 +5,7 @@
     "Maintainer": "zhouyueqiu zhouyueqiu@easycorp.ltd",
     "GitUrl": "https://github.com/jgraph/drawio",
     "DockerfileUrl": "https://github.com/quicklyon/drawio-docker",
-    "DockerfileRepoBranch":"",
+    "DockerfileRepoBranch":"master",
     "InstallDocUrl": "https://www.qucheng.com/app-install/install-drawio-<number>.html",
     "Docker": {
         "Name": "drawio",

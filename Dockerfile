@@ -24,6 +24,8 @@ ENV EASYSOFT_APP_NAME="drawio $APP_VER"
 RUN mkdir -p $CATALINA_HOME/webapps/draw \
     && curl -sLk -o /tmp/draw.war https://github.com/jgraph/drawio/releases/download/v${APP_VER}/draw.war \
     && unzip /tmp/draw.war -d $CATALINA_HOME/webapps/draw \
+    && cd /usr/local/tomcat/webapps/draw/math \
+    && mv es5/* ./ \
     && rm -rf /tmp/draw.war
 
 # Copy drawio config files

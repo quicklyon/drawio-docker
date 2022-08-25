@@ -18,14 +18,9 @@
 ## 一、关于 drawio
 
 <!-- 这里写应用的【介绍信息】 -->
+Drawio是使用HTML5和JavaScript开发的免费和开源的跨平台图形绘制软件。可用于创建各类图形，例如流程图，线框，UML图，组织图和网络图。同时也可以像跨浏览器的Web应用程序一样在线使用，也可以像Linux，macOS和Windows上的脱机桌面应用程序一样使用。
 
-<!-- 示例：
-
-[Spug](https://spug.cc/) 面向中小型企业设计的轻量级无 Agent 的自动化运维平台，整合了主机管理、主机批量执行、主机在线终端、文件在线上传下载、应用发布部署、在线任务计划、配置中心、监控、报警等一系列功能。
-
--->
-
-![screenshots](https://raw.githubusercontent.com/quicklyon/drawio-docker//.template/screenshot.png)
+![screenshots](https://raw.githubusercontent.com/quicklyon/drawio-docker/master/.template/screenshot.png)
 
 drawio官网：[https://www.diagrams.net/](https://www.diagrams.net/)
 
@@ -139,8 +134,8 @@ docker-compose logs -f drawio
 - 启动成功后，打开浏览器输入 `http://<你的IP>:8080` 访问管理后台
 - 默认用户名：`admin`，默认密码：`spug.dev`
 -->
-- [VERSION](https://github.com/quicklyon/drawio-docker/blob//VERSION) 文件中详细的定义了Makefile可以操作的版本
-- [docker-compose.yml](https://github.com/quicklyon/drawio-docker/blob//docker-compose.yml)
+- [VERSION](https://github.com/quicklyon/drawio-docker/blob/master/VERSION) 文件中详细的定义了Makefile可以操作的版本
+- [docker-compose.yml](https://github.com/quicklyon/drawio-docker/blob/master/docker-compose.yml)
 
 ## 七、版本升级
 
