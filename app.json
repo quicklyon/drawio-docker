@@ -6,7 +6,7 @@
     "GitUrl": "https://github.com/jgraph/drawio",
     "DockerfileUrl": "https://github.com/quicklyon/drawio-docker",
     "DockerfileRepoBranch":"master",
-    "InstallDocUrl": "https://www.qucheng.com/app-install/install-drawio-<number>.html",
+    "InstallDocUrl": "https://www.qucheng.com/app-install/drawio-install-149.html",
     "Docker": {
         "Name": "drawio",
         "OS": "debian-11",

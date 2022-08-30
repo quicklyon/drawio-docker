@@ -10,7 +10,7 @@
 
 ## 快速参考
 
-- 通过 [渠成软件百宝箱](https://www.qucheng.com/app-install/install-drawio-<number>.html) 一键安装 **drawio**
+- 通过 [渠成软件百宝箱](https://www.qucheng.com/app-install/drawio-install-149.html) 一键安装 **drawio**
 - [Dockerfile 源码](https://github.com/quicklyon/drawio-docker)
 - [drawio 源码](https://github.com/jgraph/drawio)
 - [drawio 官网](https://www.diagrams.net/)
@@ -25,29 +25,35 @@ Drawio是使用HTML5和JavaScript开发的免费和开源的跨平台图形绘�
 drawio官网：[https://www.diagrams.net/](https://www.diagrams.net/)
 
 <!-- 这里写应用的【附加信息】 -->
-
-<!-- 示例
-
 ### 1.1 特性
 
-- 批量执行: 主机命令在线批量执行
-- 在线终端: 主机支持浏览器在线终端登录
-- 文件管理: 主机文件在线上传下载
-- 任务计划: 灵活的在线任务计划
-- 发布部署: 支持自定义发布部署流程
-- 配置中心: 支持 KV、文本、json 等格式的配置
-- 监控中心: 支持站点、端口、进程、自定义等监控
-- 报警中心: 支持短信、邮件、钉钉、微信等报警方式
-- 优雅美观: 基于 Ant Design 的 UI 界面
-- 开源免费: 前后端代码完全开源
+- 保护图表数据的安全
+draw.io 应用程序不存储您的图表数据，我们专注安全第一的图表工具。
 
--->
+- 随心所欲的绘制图表
+无需帐户 - 您的图表文件不需要账户的支持，支持在移动设备和触摸屏上轻松的绘制图表。
+
+- 集成很多高级的工具
+
+图表编辑器中内置了许多先进且有用的工具。
+
+- 使用无限画布、标尺、可自定义的网格和定位指南来帮助您更快地绘制图表。
+- 让自动布局为您格式化流程图和树形图。
+- 使用图层和标签组织图表。 设置形状属性、元数据和占位符以添加翻译、工具提示、链接和交互操作。
+- 使用手绘形状进行素描和评论。
+- 在 draw.io Board 图表中使用手绘工具来标记图表或用鼠标绘制形状
+- 创建您自己的自定义形状和自定义形状库。
+- 使用 HTML 格式化文本并在标签中使用数学排版。
+- 使用 PlantUML 或 Mermaid 代码、CSV 电子表格数据和格式信息或 SQL 代码生成图表文本。
+- 自定义编辑器以设置特定调色板、自定义字体、模板、形状库等
 
 ## 二、支持的版本(Tag)
 
 由于版本比较多,这里只列出最新的5个版本,更详细的版本列表请参考:[可用版本列表](https://hub.docker.com/r/easysoft/drawio/tags/)
 
 <!-- 这里是镜像的【Tag】信息，通过命令维护，详情参考：https://github.com/quicklyon/template-toolkit -->
+- [latest](https://github.com/jgraph/drawio/releases/tag/v20.2.6)
+- [20.2.6-20220829](https://github.com/jgraph/drawio/releases/tag/v20.2.6)
 
 ## 三、获取镜像
 
@@ -65,51 +71,12 @@ docker pull easysoft/drawio:[TAG]
 
 ## 四、持久化数据
 
-如果你删除容器，所有的数据都将被删除，下次运行镜像时会重新初始化数据。为了避免数据丢失，你应该为容器提供一个挂在卷，这样可以将数据进行持久化存储。
-
-为了数据持久化，你应该挂载持久化目录：
-
-- /data 持久化数据
-
-如果挂载的目录为空，首次启动会自动初始化相关文件
-
-```bash
-$ docker run -it \
-    -v $PWD/data:/data \
-docker pull easysoft/drawio:latest
-```
-
-或者修改 docker-compose.yml 文件，添加持久化目录配置
-
-```bash
-services:
-  drawio:
-  ...
-    volumes:
-      - /path/to/persistence:/data
-  ...
-```
+drawio 不需要持久化数据。
 
 ## 五、环境变量
 
 <!-- 这里写应用的【环境变量信息】 -->
-
-<!-- 示例：
-
-| 变量名           | 默认值        | 说明                             |
-| ---------------- | ------------- | -------------------------------- |
-| EASYSOFT_DEBUG   | false         | 是否打开调试信息，默认关闭       |
-| MYSQL_HOST       | 127.0.0.1     | MySQL 主机地址                   |
-| MYSQL_PORT       | 3306          | MySQL 端口                       |
-| MYSQL_DB         | spug          | spug 数据库名称                 |
-| MYSQL_USER       | root          | MySQL 用户名                      |
-| MYSQL_PASSWORD   | pass4Spug     | MySQL 密码                        |
-| REDIS_HOST       | 127.0.0.1     | Redis 服务地址 |
-| REDIS_PORT       | 6379          | Redis 端口 |
-| DEFAULT_ADMIN_USER| admin        | 默认管理员名称             |
-| DEFAULT_ADMIN_PASSWORD | spug.dev | 默认管理员密码 |
-
--->
+渠成已经将必要的环境变量设置了默认值，暂时不需要自定义环境变量。
 
 ## 六、运行
 
@@ -128,15 +95,34 @@ docker-compose logs -f drawio
 ```
 
 <!-- 这里写应用的【make命令的备注信息】位于文档最后端 -->
-<!-- 示例
 **说明:**
 
-- 启动成功后，打开浏览器输入 `http://<你的IP>:8080` 访问管理后台
-- 默认用户名：`admin`，默认密码：`spug.dev`
--->
+- 启动成功后，打开浏览器输入 `http://<你的IP>:8080` 访问
 - [VERSION](https://github.com/quicklyon/drawio-docker/blob/master/VERSION) 文件中详细的定义了Makefile可以操作的版本
 - [docker-compose.yml](https://github.com/quicklyon/drawio-docker/blob/master/docker-compose.yml)
 
 ## 七、版本升级
 
 <!-- 这里是镜像的【版本升级】信息，通过命令维护，详情参考：https://github.com/quicklyon/template-toolkit -->
+drawio 没有持久化存储，也没有数据库的依赖，因此升级非常简单，直接更换版本号即可：
+
+> 修改 docker-compose.yml 文件
+
+```diff
+...
+  drawio:
+-    image: easysoft/drawio:20.2.6-20220829
++    image: easysoft/drawio:20.2.7-20220902
+    container_name: drawio
+...
+```
+
+更新服务
+
+```bash
+# 是用新版本镜像更新服务
+docker-compose up -d
+
+# 查看服务状态和镜像版本
+docker-compose ps
+```
