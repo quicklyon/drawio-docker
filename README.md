@@ -52,7 +52,8 @@ draw.io 应用程序不存储您的图表数据，我们专注安全第一的图
 由于版本比较多,这里只列出最新的5个版本,更详细的版本列表请参考:[可用版本列表](https://hub.docker.com/r/easysoft/drawio/tags/)
 
 <!-- 这里是镜像的【Tag】信息，通过命令维护，详情参考：https://github.com/quicklyon/template-toolkit -->
-- [latest](https://github.com/jgraph/drawio/releases/tag/v20.2.6)
+- [latest](https://github.com/jgraph/drawio/releases/tag/v20.2.8)
+- [20.2.8-20220906](https://github.com/jgraph/drawio/releases/tag/v20.2.8)
 - [20.2.6-20220829](https://github.com/jgraph/drawio/releases/tag/v20.2.6)
 
 ## 三、获取镜像

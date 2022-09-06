@@ -3,10 +3,10 @@
 
 APP_NAME=$1
 ACTION=$2
-SUCCESS_STRING="ZincSearch"
+SUCCESS_STRING="Flowchart Maker & Online Diagram Software"
 SERVICE_PORT=8080
 
-. debian/prebuildfs/opt/easysoft/scripts/liblog.sh
+. ubuntu/prebuildfs/opt/easysoft/scripts/liblog.sh
 
 info "Testing $APP_NAME"
 
