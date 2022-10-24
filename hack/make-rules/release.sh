@@ -52,7 +52,7 @@ git_commit(){
   git add . \
   && git commit -m "$APP_NAME update to $LATEST_VER" \
   && git push \
-  && gh release create v"$LATEST_VER" -F changelog/"$TODAY".md
+  && gh release create v"${LATEST_VER}-${TODAY}" -F changelog/"$TODAY".md
 }
 
 #====== main =======
