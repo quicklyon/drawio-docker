@@ -53,6 +53,7 @@ draw.io 应用程序不存储您的图表数据，我们专注安全第一的图
 
 <!-- 这里是镜像的【Tag】信息，通过命令维护，详情参考：https://github.com/quicklyon/template-toolkit -->
 - [latest](https://github.com/jgraph/drawio/releases/tag/v20.4.2)
+- [20.5.0-20221024](https://github.com/jgraph/drawio/releases/tag/v20.5.0)
 - [20.4.2-20221021](https://github.com/jgraph/drawio/releases/tag/v20.4.2)
 - [20.4.0-20221005](https://github.com/jgraph/drawio/releases/tag/v20.4.0)
 - [20.3.6-20220927](https://github.com/jgraph/drawio/releases/tag/v20.3.6)

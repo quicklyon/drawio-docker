@@ -46,3 +46,6 @@ clean: stop ## 停服务
 
 logs: ## 查看运行日志
 	export TAG=$(TAG) ;docker-compose -f docker-compose.yml logs
+
+release: ## 抓取changelog,按模板生产文档,提交变更
+	/bin/bash hack/make-rules/release.sh
