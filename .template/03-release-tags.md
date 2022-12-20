@@ -1,5 +1,6 @@
 <!-- 这里是镜像的【Tag】信息，通过命令维护，详情参考：https://github.com/quicklyon/template-toolkit -->
-- [latest](https://github.com/jgraph/drawio/releases/tag/v20.6.0)
+- [latest](https://github.com/jgraph/drawio/releases/tag/v20.7.4)
+- [20.7.4-20221220](https://github.com/jgraph/drawio/releases/tag/v20.7.4)
 - [20.6.0-20221124](https://github.com/jgraph/drawio/releases/tag/v20.6.0)
 - [20.5.3-20221107](https://github.com/jgraph/drawio/releases/tag/v20.5.3)
 - [20.5.0-20221024](https://github.com/jgraph/drawio/releases/tag/v20.5.0)
