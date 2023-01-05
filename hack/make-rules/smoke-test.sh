@@ -30,7 +30,7 @@ for ((i = 1; i <= retries; i += 1)); do
 
     if [ "$i" == "$retries" ]; then
         error "$APP_NAME is unavailable after 30 seconds,please check."
-        return 1
+        exit 1
     fi
 done
 
